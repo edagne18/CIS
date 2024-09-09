@@ -1,7 +1,7 @@
-# Compound Interest Calculator (COMP408 - Project 2)
+# Compound Interest Calculator
 
 ## Description
-This is a web application designed for the **Spring 2024 COMP408 - Project 2**. The application calculates compound interest based on user inputs, displaying the results in a table. It is designed to work across different devices for a smooth user experience.
+This is a web application designed for the **Web Programming - Project 2**. The application calculates compound interest based on user inputs, displaying the results in a table. It is designed to work across different devices for a smooth user experience.
 
 ## Features
 - **Monthly Deposit Input**: Users can input their desired monthly deposit amount.
@@ -40,5 +40,5 @@ For any issues or questions regarding the project, please contact the project co
 
 ## License
 
-This project is licensed for educational purposes only as part of the COMP 408 - Web Programming course.
+This project is licensed for educational purposes only as part of the Web Programming course.
 
