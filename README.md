@@ -34,5 +34,11 @@ This is a web application designed for the **Spring 2024 COMP408 - Project 2**. 
 ## Project Details
 - **Course**: COMP408 - Web Development
 
-## Authors
-- Eyuel Dagne
+## Support
+
+For any issues or questions regarding the project, please contact the project contributor.
+
+## License
+
+This project is licensed for educational purposes only as part of the COMP408 - Web Development course.
+
