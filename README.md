@@ -40,5 +40,5 @@ For any issues or questions regarding the project, please contact the project co
 
 ## License
 
-This project is licensed for educational purposes only as part of the COMP408 - Web Development course.
+This project is licensed for educational purposes only as part of the COMP 408 - Web Programming course.
 
