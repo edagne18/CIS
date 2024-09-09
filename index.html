@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compound Interest Calculator</title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div id="calculator-container">
+        <h1>Compound Interest Calculator</h1>
+        <form id="interestCalculatorForm">
+            <label for="initialAmount">Initial amount:</label>
+            <input type="number" id="initialAmount" name="initialAmount" placeholder="Enter initial amount" min="0" step="any"><br>
+
+            <label for="monthlyDeposit">Monthly deposit:</label>
+            <input type="number" id="monthlyDeposit" name="monthlyDeposit" placeholder="Enter monthly deposit" min="0" step="any"><br>
+
+            <label for="annualRate">Annual interest rate:</label>
+            <input type="number" id="annualRate" name="annualRate" placeholder="Enter annual interest rate" min="0" step="any"> %<br>
+
+            <label for="yearsToGrow">Years to grow:</label>
+            <input type="number" id="yearsToGrow" name="yearsToGrow" placeholder="Enter years to grow" min="0" step="any"><br>
+
+            <button type="button" id="calculateBtn">Calculate Compound Interest</button>
+        </form>
+        <table id="resultsTable">
+            <thead>
+                <tr>
+                    <th>Month</th>
+                    <th>Starting Value</th>
+                    <th>Interest Earned</th>
+                    <th>Ending Value</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Results will be displayed here -->
+            </tbody>
+        </table>
+    </div>
+<script src="calculator.js"></script>
+</body>
+</html>

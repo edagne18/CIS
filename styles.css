@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    color: #333;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label, input, button {
+    margin: 5px;
+}
+
+button {
+    cursor: pointer;
+    padding: 10px;
+    background-color: #4CAF50; /* Kept as is for a vibrant, inviting look */
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 600px;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #007BFF; /* Updated to a deep blue for better contrast */
+    color: white; /* Ensures text is readable against the new header background */
+}
+
+thead {
+    background-color: #007BFF; /* Matches th for a uniform header appearance */
+}
+
+tbody {
+    background-color: #F0F8FF; /* A lighter shade for body to complement the header */
+}
+
+@media (max-width: 768px) {
+    label, input, button {
+        display: block;
+        width: 100%;
+    }
+}
